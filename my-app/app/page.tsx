@@ -3,6 +3,8 @@ export default function Home() {
   return (
   <main>
 <div>
+
+    <div>mistake logo </div>
     <div class="" style="margin:auto; padding: 30px;">
         <nav class=""
             style="display: flex; justify-content:space-between;align-items: center; margin: 2rem,1rem; padding-right: 7rem   ">
