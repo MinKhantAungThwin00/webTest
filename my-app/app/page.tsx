@@ -5,51 +5,50 @@ export default function Home() {
 <div>
 
     <div>mistake logo </div>
-    <div class="" style="margin:auto; padding: 30px;">
-        <nav class=""
-            style="display: flex; justify-content:space-between;align-items: center; margin: 2rem,1rem; padding-right: 7rem   ">
-            <a href="" style="margin: 0.5rem; font: bolder; font-size: 1.8rem;">
+    <div className="m-auto	margin: auto;px-30">
+        <nav className="flex; justify-content: space-between;align-items: center; margin: 2rem,1rem;padding-right: 7rem">
+        <a className="m-1; font-bold; text-lg; "href="">
                 <div></div>
                 <h1>TailwindTemplates</h1>
             </a>
 
             <div>
-                <ul class="" style="display: flex;gap: 8rem;align-items: center;">
+                <ul className="flex; gap-32; items-center" >
                     <li>
-                        <a href="" class="">
+                        <a href="">
                             Templates
                         </a>
                     </li>
                     <li>
-                        <a href="" class="">
+                        <a href="">
                             Resource
                         </a>
                     </li>
                     <li>
-                        <a href="" class="">
+                        <a href="">
                             Blog
                         </a>
                     </li>
                     <li>
-                        <a href="" class="">
+                        <a href="">
                             About
                         </a>
                     </li>
                 </ul>
             </div>
-        </nav><!--  -->
+        </nav>
     </div>
 
-    <div style=" margin-top: 5rem;padding: 1rem;">
-        <div style="height: 23rem; width: auto;  box-shadow: 10px 10px 50px 1px gray; border-radius: 1rem; ">
+    <div className="mt-5;p-1">
+        <div className="min-h-24  w-auto box-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1); border-radius: 0.75rem">
         </div>
     </div>
 
-    <div class="w-11/12 md:w-10/12 lg:w-1/2 mx-auto" style="text-align: center;">
-        <div class="bg-blue-100 inline-block py-1 px-4 rounded-xl mb-6">
-            <p class="" style="color: blue;font: bolder;" >Update</p>
+    <div className="w-11/12 md:w-10/12 lg:w-1/2 mx-auto text-center" >
+        <div className="bg-blue-100 inline-block py-1 px-4 rounded-xl mb-6">
+            <p className="color: rgb(239 246 255) font-bold" >Update</p>
         </div>
-            <h1 class="text-3xl md:text-5xl text-ui-secondary font-semibold">
+            <h1 className="text-3xl md:text-5xl text-ui-secondary font-semibold">
                 TailwindTemplates v2 is here
             </h1>
     </div>
@@ -61,6 +60,7 @@ export default function Home() {
 
 
   </main>
+ 
   
     
   );
