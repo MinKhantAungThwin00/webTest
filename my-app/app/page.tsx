@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="m-1 p-0">
-      <div className="container mt-0 p-2">
+      <div className="container mt-0 ">
         <nav className="flex items-center justify-between py-8 px-4 sm:px-0">
           <a
             className="w-1/4 text-primary font-bold text-2xl flex items-center space-x-2"
@@ -60,13 +60,7 @@ export default function Home() {
 
         <section className="mt-10 mb-32">
           <div className="flex justify-start">
-            <div className="">
-              <img
-                className="h-10 w-10 rounded-full"
-                src="./images/shulinp.png"
-                alt="image"
-              />
-            </div>
+            <div className="">icon1</div>
             <p className=" text-ui-secondary ">1 minute read</p>
           </div>
           <div className="flex justify-end">
@@ -131,71 +125,15 @@ export default function Home() {
         </section>
       </div>
 
-      {/* <div className="bg-primary">
-        <footer className="mx-auto container px-6 pt-24 pb-16">
-          <div className="grid lg:grid-cols-3 px-6 lg:px-0 gap-4">
-            <div className="text-white">
-              <h1 className="font-bold text-lg"></h1>
-              <ul className="space-y-1">
-                <li>
-                  <a href="" className="hover:text-secondary-lighter">
-                    ABC
-                  </a>
-                </li>
-                <li>
-                  <a href="">DEF</a>
-                </li>
-                <li>
-                  <a href="">HIJ</a>
-                </li>
-              </ul>
-            </div>
-            <div className="text-white">
-              <h1 className="font-bold text-lg"></h1>
-              <ul className="space-y-1">
-                <li>
-                  <a
-                    href="https://www.knowies.com/collections/77d247ce-14fd-11eb-91a4-5616ea45b6fe"
-                    rel="noopener"
-                    target="_blank"
-                  >
-                    Amazing tools
-                  </a>
-                </li>
-                <li>
-                  <a href="/blog">Blog</a>
-                </li>
-              </ul>
-            </div>
-            <div className="text-white">
-              <div className="mt-4 inline-block">
-                <a
-                  href="https://tailwindtemplates.m-pages.com/newsletter"
-                  target="_blank"
-                  rel="noopener"
-                  className="bg-secondary py-2 px-3 -ml-1 rounded-lg text-white font-bold flex hover:bg-secondary-lighter"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 mr-1"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                    ></path>
-                  </svg>
-                  Subscribe to newsletter
-                </a>
-              </div>
-            </div>
-          </div>
-        </footer>
-      </div> */}
+      <footer id="hireme" className="flex gap-4 ">
+        <a href="">a</a>
+
+        <a href="">b</a>
+
+        <a href="">c</a>
+
+        <a href="">d</a>
+      </footer>
     </main>
   );
 }
