@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Home() {
   return (
   <main>
-<div>
+
 
     <div>mistake logo </div>
     <div className="m-auto	margin: auto;px-30">
