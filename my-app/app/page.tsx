@@ -1,14 +1,14 @@
 import Image from "next/image";
 export default function Home() {
   return (
-    <main className="antialiased overflow-x-hidden">
-      <div className="container mx-auto p-28">
+    <main className="m-1 p-0">
+      <div className="container mt-0 p-2">
         <nav className="flex items-center justify-between py-8 px-4 sm:px-0">
           <a
             className="w-1/4 text-primary font-bold text-2xl flex items-center space-x-2"
             href=""
           >
-            <div>mistake logo </div>
+            <div className="p-7">mistake logo </div>
             <div className="w-12 h-12 flex items-center justify-center flex-shrink-0"></div>
             <h1 className="text-ui-secondary font-bold hidden sm:block">
               TailwindTemplates
@@ -53,9 +53,9 @@ export default function Home() {
         </h1>
       </div>
 
-      <section className="mt-10 mb-32 inline-block">
-        <div className="flex justify-stretch px-96">
-          <div className="">icon1</div>
+      <section className="mt-10 mb-32">
+        <div className="flex justify-center items-center">
+          <div className="flex items-center">icon1</div>
           <p className=" text-ui-secondary ">1 minute read</p>
         </div>
         <div className="flex justify-end">
@@ -71,8 +71,8 @@ export default function Home() {
         </div>
 
         <div className="mt-8 ">
-          <div className="inline">
-            <p className="mb-6 inline">
+          <div className="">
+            <p className="mb-6 ">
               TailwindTemplates V2 is finally here! Our focus for
               TailwindTemplates v2 is to bring open-source design systems to
               Tailwindcss. Each design system has a detailed guideline to
@@ -102,20 +102,22 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div className="bg-primary">
+      {/* <div className="bg-primary">
         <footer className="mx-auto container px-6 pt-24 pb-16">
           <div className="grid lg:grid-cols-3 px-6 lg:px-0 gap-4">
             <div className="text-white">
               <h1 className="font-bold text-lg"></h1>
               <ul className="space-y-1">
                 <li>
-                  <a href="" className="hover:text-secondary-lighter"></a>
+                  <a href="" className="hover:text-secondary-lighter">
+                    ABC
+                  </a>
                 </li>
                 <li>
-                  <a href=""></a>
+                  <a href="">DEF</a>
                 </li>
                 <li>
-                  <a href=""></a>
+                  <a href="">HIJ</a>
                 </li>
               </ul>
             </div>
@@ -164,7 +166,7 @@ export default function Home() {
             </div>
           </div>
         </footer>
-      </div>
+      </div> */}
     </main>
   );
 }
