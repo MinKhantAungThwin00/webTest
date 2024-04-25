@@ -51,57 +51,62 @@ export default function Home() {
         <h1 className="text-3xl md:text-5xl text-ui-secondary font-semibold">
           TailwindTemplates v2 is here
         </h1>
+
+        <section className="mt-10 mb-32">
+          <div className="flex justify-start">
+            <div className="">icon1</div>
+            <p className=" text-ui-secondary ">1 minute read</p>
+          </div>
+          <div className="flex justify-end">
+            <a className="mr-2" href="">
+              facebook
+            </a>
+            <a className="mr-2" href="">
+              instagram
+            </a>
+            <a className="mr-2" href="">
+              Line
+            </a>
+          </div>
+
+          <div className="mt-8 ">
+            <div className="">
+              <p className="mb-6 ">
+                TailwindTemplates V2 is finally here! Our focus for
+                TailwindTemplates v2 is to bring open-source design systems to
+                Tailwindcss. Each design system has a detailed guideline to
+                provide consistency and coherence within a user interface.
+              </p>
+            </div>
+            <div className="header-block">
+              <h3 className="text-xl">What to expect?</h3>
+
+              <br></br>
+            </div>
+            <div className="paragraph-block">
+              <p className="mb-6 leading-relaxed">
+                Over the coming months, we will expand the design systems that
+                are currently available at launch. In addition to that, we are
+                planning to create several tailwind configurations to easily get
+                started with the proper colors and variants that belong to each
+                design system.&nbsp;
+              </p>
+            </div>
+            <div className="header-block">
+              <h3 className="text-xl">Not only templates</h3>
+              <br></br>
+            </div>
+            <div className="paragraph-block">
+              <p className="mb-6 ">
+                We are planning to bring more tailwind and web
+                development-related content such as videos, blog posts,
+                tutorials and news.&nbsp;
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
 
-      <section className="mt-10 mb-32">
-        <div className="flex justify-center items-center">
-          <div className="flex items-center">icon1</div>
-          <p className=" text-ui-secondary ">1 minute read</p>
-        </div>
-        <div className="flex justify-end">
-          <a className="mr-2" href="">
-            facebook
-          </a>
-          <a className="mr-2" href="">
-            instagram
-          </a>
-          <a className="mr-2" href="">
-            Line
-          </a>
-        </div>
-
-        <div className="mt-8 ">
-          <div className="">
-            <p className="mb-6 ">
-              TailwindTemplates V2 is finally here! Our focus for
-              TailwindTemplates v2 is to bring open-source design systems to
-              Tailwindcss. Each design system has a detailed guideline to
-              provide consistency and coherence within a user interface.
-            </p>
-          </div>
-          <div className="header-block">
-            <h3 className="mb-6">What to expect?</h3>
-          </div>
-          <div className="paragraph-block">
-            <p className="mb-6 leading-relaxed">
-              Over the coming months, we will expand the design systems that are
-              currently available at launch. In addition to that, we are
-              planning to create several tailwind configurations to easily get
-              started with the proper colors and variants that belong to each
-              design system.&nbsp;
-            </p>
-          </div>
-          <div className="header-block">
-            <h3 className="mb-6">Not only templates</h3>
-          </div>
-          <div className="paragraph-block">
-            <p className="mb-6 ">
-              We are planning to bring more tailwind and web development-related
-              content such as videos, blog posts, tutorials and news.&nbsp;
-            </p>
-          </div>
-        </div>
-      </section>
       {/* <div className="bg-primary">
         <footer className="mx-auto container px-6 pt-24 pb-16">
           <div className="grid lg:grid-cols-3 px-6 lg:px-0 gap-4">
