@@ -8,7 +8,13 @@ export default function Home() {
             className="w-1/4 text-primary font-bold text-2xl flex items-center space-x-2"
             href=""
           >
-            <div className="p-7">mistake logo </div>
+            <div className="p-7">
+              <img
+                className="h-10 w-10 rounded-full"
+                src="./images/shulinp.png"
+                alt="image"
+              />
+            </div>
             <div className="w-12 h-12 flex items-center justify-center flex-shrink-0"></div>
             <h1 className="text-ui-secondary font-bold hidden sm:block">
               TailwindTemplates
@@ -54,18 +60,36 @@ export default function Home() {
 
         <section className="mt-10 mb-32">
           <div className="flex justify-start">
-            <div className="">icon1</div>
+            <div className="">
+              <img
+                className="h-10 w-10 rounded-full"
+                src="./images/shulinp.png"
+                alt="image"
+              />
+            </div>
             <p className=" text-ui-secondary ">1 minute read</p>
           </div>
           <div className="flex justify-end">
             <a className="mr-2" href="">
-              facebook
+              <img
+                className="h-10 w-10 rounded-full"
+                src="./images/shulinp.png"
+                alt="image"
+              />
             </a>
             <a className="mr-2" href="">
-              instagram
+              <img
+                className="h-10 w-10 rounded-full"
+                src="./images/shulinp.png"
+                alt="image"
+              />
             </a>
             <a className="mr-2" href="">
-              Line
+              <img
+                className="h-10 w-10 rounded-full"
+                src="./images/shulinp.png"
+                alt="image"
+              />
             </a>
           </div>
 
